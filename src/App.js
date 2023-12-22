@@ -42,7 +42,7 @@ function App() {
   return (
     <TimeTrackerContext.Provider value={{ projects, tasks }}>
       <div>
-        <h1>Time Tracking App </h1>
+        <h1>Time Tracking App Checking</h1>
         <form onSubmit={handleProjectSubmit}>
           <input type="text" name="name" placeholder="Enter project name" />
           <button type="submit">Create Project</button>
